@@ -4,3 +4,34 @@
   box-sizing: border-box;
   text-decoration: none;
 }
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+header {
+  height: 60vh;
+  background-color: bisque;
+  padding: 1rem;
+}
+
+nav a {
+  color: #fff;
+  font-size: 0.8rem;
+  text-transform: capitalize;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
