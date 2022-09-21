@@ -37,9 +37,9 @@ nav a {
 }
 /* Media desktop*/
 
-media(min-width: 768px) {
+@media(min-width: 768px) {
   header {
-    background: linear-gradient(to right, rgba(87, 112, 132, 0.305), rgba(65, 82, 95, 0.648)), url('/images/sara-dubler-Koei_7yYtIo-unsplash.jpg');
+    background: linear-gradient(to right, rgba(87, 112, 132, 0.305), rgba(65, 82, 95, 0.648)), url('./images/pool.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
