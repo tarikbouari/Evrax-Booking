@@ -12,11 +12,15 @@ const Nav = () => (
       </ul>
     </nav>
     <div className="banner">
-      <div className='banner-text'>
-      <h1> Discover a beautiful Place with us</h1>
-       <p> Non officia ullamco sit in adipisicing ullamco mollit anim nisi dolor.  ullamco sit in adipisicing ullamco mollit anim nisi dolor</p>
+      <div className="banner-text">
+        <h1> Discover a beautiful Place with us</h1>
+        <p>
+          {' '}
+          Non officia ullamco sit in adipisicing ullamco mollit anim nisi dolor.
+          ullamco sit in adipisicing ullamco mollit anim nisi dolor
+        </p>
       </div>
-       
+
     </div>
   </header>
 );
