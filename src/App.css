@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
 * {
   padding: 0;
   margin: 0;
@@ -10,7 +11,7 @@ ul li {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 body {
@@ -43,6 +44,7 @@ nav a {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    color:#fff;
   }
 
   .nav-list {
@@ -55,4 +57,25 @@ nav a {
     display: flex;
     justify-content: space-between;
   }
+
+  .banner-text {
+    color: #fff;
+    width: 100%;
+    font-size: 0.8rem;
+    padding: 2rem 1rem;
+ 
+    text-align: center;
+  }
+  .banner-text h1{
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .banner-text p{
+    padding-top: 1.5rem;
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  
 }
