@@ -1,8 +1,9 @@
 import React from 'react';
+import Trip from './Trip';
 
 const Home = () => (
-  <div>
-    <h1> Hello World</h1>
+  <div className="container">
+    <Trip />
   </div>
 );
 
